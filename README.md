@@ -13,12 +13,18 @@ The data contains only 4 columns which are ID, text, “selected” text and the
 
 •	Train
 27481 rows, 4 columns (TextID, Text, Selected Text, Sentiment)
+
 •	Test
 3534 rows, 3 columns (TextID, Text, Sentiment)
 
 Columns
+
 •	textID — unique ID for each piece of text
+
 •	text — the text of the tweet
+
 •	sentiment — the general sentiment of the tweet
+
 •	selected_text — [train only] the text that supports the tweet’s sentiment
+
 
